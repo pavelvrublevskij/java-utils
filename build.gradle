@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url = 'http://repo.maven.apache.org/maven2'
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+}
+
+group = 'lt.asprogramuoju'
+version = '1.0'
+description = 'java-utils'
+sourceCompatibility = '1.8'
